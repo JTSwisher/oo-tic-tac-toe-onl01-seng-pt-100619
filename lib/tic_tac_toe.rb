@@ -107,8 +107,7 @@ class TicTacToe
    
    def play 
      turn until over?
-     
-     
+     puts winner ? "You won the game" : "The game is a tie"
    end 
    
    
