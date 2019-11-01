@@ -91,7 +91,7 @@ class TicTacToe
    def draw?
      if  @board.full? && @board.!include? WIN_COMBINATIONS
         true
-      else false
+      end 
     end 
    end 
    
