@@ -90,6 +90,7 @@ class TicTacToe
    
    def draw?
       @board.full? || @board.include? WIN_COMBINATIONS
+    end 
    end 
    
    def over?
